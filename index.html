@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Locksmith | 24/7 Professional Security</title>
+    
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container top-flex">
+    <span><i class="fas fa-map-marker-alt"></i> Serving Manchester, Salford &amp; Surrounding Areas</span>
+    <span><i class="fas fa-clock"></i> 24/7 Emergency — 20 Min Response</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-flex">
+
+    <div class="logo">
+      <div class="logo-box" id="logo-icon"><i class="fas fa-shield-alt"></i></div>
+      <span id="biz-name-1">ANTON</span> <span id="biz-name-2">LOCKS</span>
+    </div>
+
+    <button class="menu-toggle" id="ham" aria-label="Open menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#services"  data-section="services"><i class="fas fa-tools"></i> Services</a>
+      <a href="#about"     data-section="about"><i class="fas fa-user"></i> About</a>
+      <a href="#reviews"   data-section="reviews"><i class="fas fa-star"></i> Reviews</a>
+      <a href="#areas"     data-section="areas"><i class="fas fa-map-marker-alt"></i> Areas</a>
+      <a href="#contact"   data-section="contact"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="tel:..." class="btn-nav" id="nav-phone-btn"><i class="fas fa-phone-alt"></i> <span class="phone-text">07706 581958</span></a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- MOBILE DRAWER -->
+<div class="mob-drawer" id="drawer">
+  <a href="#services" onclick="closeDrawer()"><i class="fas fa-tools"></i> Services</a>
+  <a href="#about"    onclick="closeDrawer()"><i class="fas fa-user"></i> About</a>
+  <a href="#reviews"  onclick="closeDrawer()"><i class="fas fa-star"></i> Reviews</a>
+  <a href="#areas"    onclick="closeDrawer()"><i class="fas fa-map-marker-alt"></i> Areas</a>
+  <a href="#contact"  onclick="closeDrawer()"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="tel:..." class="btn-primary" id="hero-phone-btn"><i class="fas fa-phone-alt"></i> CALL <span class="phone-text">07706 581958</span></a>
+</div>
+
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-left">
+    <img id="hero-img" src="assets/images/locksmith-img-5.png" alt="Business Image" />
+  </div>
+  <div class="hero-right">
+    <div class="hero-badge fade-up" id="hero-badge">
+      <i class="fas fa-check-circle"></i> DBS Checked & Trading Standards Approved
+    </div>
+    <h1 class="fade-up delay-1" id="hero-title">Locked Out?<br><span class="highlight">On-Site in 20 Mins.</span></h1>
+    <p class="fade-up delay-2" id="hero-desc">Serving Swinton, Salford, and Greater Manchester. Homes, offices, and vehicles Anton Locks gets you back in without the damage.</p>
+    <div class="cta-group fade-up delay-3">
+      <a href="tel:..." class="btn-primary biz-phone-link">
+        <i class="fas fa-phone-alt"></i> <span id="hero-cta-text">CALL</span> <span class="phone-text">07706 581958</span>
+      </a>
+      <a href="#services" class="btn-outline-white" id="hero-secondary-btn">EXPLORE SERVICES</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- STATS -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <h3 id="stat-1-val">15+</h3>
+        <p id="stat-1-label">Years Experience</p>
+      </div>
+      <div class="stat-item">
+        <h3 id="stat-2-val">20<small style="font-size:1rem">min</small></h3>
+        <p id="stat-2-label">Avg. Arrival</p>
+      </div>
+      <div class="stat-item">
+        <h3 id="stat-3-val">NWP</h3>
+        <p id="stat-3-label">Registered</p>
+      </div>
+      <div class="stat-item">
+        <h3 id="stat-4-val">£0</h3>
+        <p id="stat-4-label">Call Out Fee</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="services-inner">
+      <div class="services-left">
+        <div class="tag-label" id="services-tag">What We Do</div>
+        <h2 class="section-title" id="services-title">Security Solutions</h2>
+        <p class="section-subtitle" id="services-desc">
+          Professional services designed to keep you safe, secure, and worry-free across Greater Manchester.
+        </p>
+        <ul class="services-tree" id="services-list">
+        </ul>
+      </div>
+      
+      <div class="services-right">
+        <div class="img-accent"></div>
+        <!-- Dynamic Service Images -->
+        <img id="service-img-main" src="assets/images/locksmith-img-2.jpg" alt="Work in progress" class="main-img" />
+        <div class="main-img-placeholder"><i class="fas fa-tools"></i></div>
+        <img id="service-img-overlay" src="assets/images/locksmith-img-4.png" alt="Close up" class="overlay-img" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why-us">
+  <div class="container">
+    <div class="why-header">
+      <div class="tag-label">The Difference</div>
+      <h2 class="section-title" id="why-title" style="color:var(--white);">Manchester's Most Trusted</h2>
+    </div>
+    
+    <div class="why-grid" id="why-grid-container">
+    
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="about-section">
+  <div class="about-overlay"></div>
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-left">
+        <!-- Add ID here -->
+        <div class="tag-label" id="about-tag">From Anton Himself</div>
+        <h2 class="section-title" id="about-title" style="color:var(--white); text-transform:none; font-size:clamp(1.6rem,3vw,2.2rem);">
+          Why Choose Me Over a Big Company?
+        </h2>
+        <p class="about-quote" id="about-quote">
+          "When you call Anton Locks, you get me..."
+        </p>
+        <div class="about-sign">
+          <div class="about-avatar" id="about-initial">A</div>
+          <div class="about-sign-text">
+            <strong id="owner-name">Anton</strong>
+        
+            <span id="owner-title">Owner &amp; Lead Technician, Anton Locks Manchester</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add ID to the container -->
+      <div class="about-right" id="skills-container">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="reviews" class="testimonials">
+  <div class="container">
+    <div class="testi-header">
+      <div class="tag-label">Real Reviews</div>
+      <h2 class="section-title">What Manchester Says</h2>
+    </div>
+    <div class="testi-grid" id="reviews-container">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Called Anton at 11pm after locking myself out. He arrived within 20 minutes, sorted everything without any damage, and the price was fair and upfront. Brilliant."</blockquote>
+        <div class="t-author">
+          <div class="avatar" style="background:#0056b3;">SM</div>
+          <div><div class="t-name">Sarah M.</div><div class="t-loc">Salford</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Used Anton for three rental flats after tenants left. Fast, professional, and the best rates I've found in Manchester. Will use again without hesitation."</blockquote>
+        <div class="t-author">
+          <div class="avatar" style="background:#059669;">PK</div>
+          <div><div class="t-name">Paul K.</div><div class="t-loc">Landlord, Stretford</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Snapped key in the lock on a Sunday. Anton was there in 15 minutes, extracted the key and replaced the cylinder. Door was better than before. Superb."</blockquote>
+        <div class="t-author">
+          <div class="avatar" style="background:#d97706;">JR</div>
+          <div><div class="t-name">James R.</div><div class="t-loc">Prestwich</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section id="areas" class="areas">
+  <div class="container">
+    <div class="areas-header">
+      <div class="tag-label">Service Area</div>
+      <h2 class="section-title">Areas We Cover</h2>
+    </div>
+    <div class="areas-grid" id="areas-container">
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Salford</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Worsley</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Prestwich</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Whitefield</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Manchester City Centre</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Urmston</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Stretford</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Eccles</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Swinton</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Irlam</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Pendlebury</div>
+      <div class="area-chip"><i class="fas fa-map-marker-alt"></i> Didsbury</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="tag-label">Get In Touch</div>
+        <h2 class="section-title" id="contact-title">Request a Free Quote</h2>
+        <p id="contact-desc">Tell us what you need and we'll respond fast, or call any time, day or night.</p>
+        
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-phone-alt"></i></div>
+  
+          <div class="c-detail"><strong class="phone-text">07706 581958</strong><span>Available 24 hours, 7 days a week</span></div>
+        </div>
+        
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-envelope"></i></div>
+          <div class="c-detail"><strong id="biz-email">info@antonlocks.co.uk</strong><span>We reply as quickly as possible</span></div>
+        </div>
+        
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="c-detail"><strong id="biz-location">Manchester &amp; Salford</strong><span id="biz-location-sub">Local technician, no call centre, no middlemen</span></div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <form id="qf" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="fg"><label>First Name</label><input type="text" placeholder="John" required /></div>
+            <div class="fg"><label>Last Name</label><input type="text" placeholder="Smith" required /></div>
+          </div>
+          <div class="fg"><label>Phone Number</label><input type="tel" placeholder="07700 000000" required /></div>
+          
+          <div class="fg">
+            <label>Service Needed</label>
+            <select id="contact-services">
+              <option value="">Select a service...</option>
+            </select>
+          </div>
+          
+          <div class="fg"><label>Message (optional)</label><textarea placeholder="Briefly describe your situation..."></textarea></div>
+          <button type="submit" class="form-submit"><i class="fas fa-paper-plane"></i> Send Request</button>
+          <div class="f-success" id="fs">✅ Thanks! We will be in touch shortly.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="location">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="f-col">
+        <div class="f-logo">
+          <div class="f-logo-box" id="footer-logo-icon"><i class="fas fa-shield-alt"></i></div>
+  
+          <div class="f-logo-text"><span id="footer-biz-name-1">ANTON</span> <span id="footer-biz-name-2">LOCKS</span></div>
+        </div>
+        <p id="footer-desc">Your local Manchester locksmith providing non-destructive entry and security upgrades 24 hours a day. No call out fee. No hidden charges.</p>
+      </div>
+      <div class="f-col">
+        <h4>Areas Served</h4>
+        <ul id="footer-areas">
+          <li><a href="#areas">Manchester City Centre</a></li>
+          <li><a href="#areas">Salford & Worsley</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Contact</h4>
+        <div class="fc-line"><i class="fas fa-phone"></i><a href="tel:..." class="biz-phone-link phone-text">07706 581958</a></div>
+        <div class="fc-line"><i class="fas fa-envelope"></i><a href="mailto:..." id="footer-email">info@antonlocks.co.uk</a></div>
+        <a href="#" target="_blank" class="btn-maps" id="footer-maps-link">
+          <i class="fas fa-map-marker-alt"></i> VIEW ON GOOGLE MAPS
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright" id="footer-copyright">© 2026 Anton Locks Manchester. All Rights Reserved.</div>
+</footer>
+
+<a href="tel:..." class="float-call biz-phone-link">
+  <i class="fas fa-phone-alt"></i> <span id="float-cta">CALL NOW</span>
+</a>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
