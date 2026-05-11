@@ -1,9 +1,7 @@
-/**
- * ─── 1. MASTER BUSINESS CONFIGURATION ───
- */
+
 const businessData = {
     "alco_roofing": {
-name1: "ALCO", name2: "ROOFING",
+        name1: "ALCO", name2: "ROOFING",
         phone: "01204 706991",
         email: "info@alcoroofing.co.uk",
         color: "#d90429",
@@ -60,7 +58,7 @@ name1: "ALCO", name2: "ROOFING",
         mapsUrl: "https://google.com...",
         floatCta: "GET A QUOTE"        
     },
-        "ci_group": {
+      "ci_group": {
         name1: "CI", name2: "GROUP",
         phone: "0800 180 4000",
         email: "hello@cigroup.co.uk",
@@ -180,7 +178,369 @@ name1: "ALCO", name2: "ROOFING",
         footerDesc: "Premium roofing contractors based in Manchester. Providing 24-hour emergency support and full roof installations across the region.",
          mapsUrl: "https://google.com...",
          floatCta: "CALL NOW"        
-    }
+    },
+     "kh_roofing": {
+        name1: "K.H.", name2: "ROOFING",
+        phone: "+44 161 825 7408",
+        email: "info@khroofs.com",
+        color: "#1a5c38",
+        colorDark: "#134a2c",
+        icon: "fa-hard-hat",
+        locationName: "South Manchester",
+        locationSub: "132 five-star reviews. Manchester's most trusted roofers.",
+        formServices: ["Tile & Slate Repairs", "Full Re-Roof", "Flat Roofing", "Chimney Repointing", "Guttering"],
+         heroTitle: "132 Five-Star Reviews.<br><span class='highlight'>Manchester's Most Trusted.</span>",
+        heroDesc: "With over 132 verified 5-star reviews, K.H. Roofing is the name South Manchester relies on for quality tile, slate, and flat roofing work.",
+        heroBadge: "<i class='fas fa-star'></i> 5.0 Rating — 132 Verified Reviews",
+        heroImg: "assets/roofing/roofing_service_img1.jpg",
+        aboutQuote: "Every roof we touch gets the same attention as if it were our own home. That's why our customers keep coming back.",
+        ctaText: "GET FREE QUOTE",
+        secondaryBtn: "VIEW OUR WORK",
+        owner: "K.H. Team",
+        stat1Val: "132",   stat1Label: "5-Star Reviews",
+         stat2Val: "5.0",   stat2Label: "Google Rating",
+         stat3Val: "15+",   stat3Label: "Years Experience",
+        stat4Val: "Free",  stat4Label: "Estimates",
+         servicesTitle: "Roofing Services",
+         servicesDesc: "From individual tile replacements to complete roof overhauls — K.H. Roofing covers every job across South Manchester.",
+         serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+         serviceOverlayImg: "assets/roofing/roofing_service_img_6.jpg",
+         tree: [
+             { category: "Repairs",       items: ["Tile & Slate Replacement", "Emergency Leak Fix", "Chimney Repointing"] },
+             { category: "Installations", items: ["Full Re-Roof", "Flat Roof Systems", "Leadwork"] },
+             { category: "Maintenance",   items: ["Gutter Cleaning", "Roof Inspections", "Fascias & Soffits"] }
+            ],
+          whyTitle: "Why South Manchester Chooses K.H.",
+          whyCards: [
+              { icon: "fa-star",         title: "132 Reviews",      desc: "More verified 5-star Google reviews than almost any roofer in Manchester." },
+              { icon: "fa-tools",        title: "All Roof Types",   desc: "Tile, slate, flat, lead, and more. One team for every roofing requirement." },
+              { icon: "fa-pound-sign",   title: "Honest Pricing",   desc: "Transparent quotes with no hidden costs. The price we give is the price you pay." },
+              { icon: "fa-calendar-check", title: "Reliable Service", desc: "We show up on time, finish on schedule, and leave your property clean." }
+                ],
+             aboutTag: "About K.H. Roofing",
+    aboutTitle: "Built on Reputation",
+    ownerTitle: "Lead Roofer, K.H. Roofing",
+    skills: [
+        { name: "Tile & Slate Work",   pct: "100", icon: "fa-home" },
+        { name: "Flat Roofing",        pct: "96",  icon: "fa-layer-group" },
+        { name: "Emergency Repairs",   pct: "98",  icon: "fa-bolt" },
+        { name: "Customer Satisfaction", pct: "100", icon: "fa-smile" }
+    ],
+    reviews: [
+        { name: "David T.", text: "They did a fantastic job of retiling our roof and renewing our flat roofs. Couldn't recommend more.", loc: "Stockport" },
+        { name: "Claire B.", text: "Turned up on time, finished ahead of schedule, and the price was exactly as quoted.", loc: "Didsbury" }
+    ],
+    areas: ["Didsbury", "Stockport", "Chorlton", "Wythenshawe", "Fallowfield"],
+    footerBizName1: "K.H.",
+    footerBizName2: "ROOFING",
+    footerDesc: "South Manchester's highest-rated roofing contractor. 132 five-star reviews and counting.",
+    mapsUrl: "https://www.google.com/maps/place/K.H.+Roofing",
+    floatCta: "CALL NOW"
+},
+
+"evolution_roofing": {
+    name1: "EVOLUTION", name2: "ROOFING",
+    phone: "+44 7394 226502",
+    email: "info@evolutionroofing.co.uk",
+    color: "#b84c00",
+    colorDark: "#963d00",
+    icon: "fa-drafting-compass",
+    locationName: "Salford & Greater Manchester",
+    locationSub: "Precision roofing. 136 five-star reviews.",
+    formServices: ["Full Roof Replacement", "Emergency Repairs", "Flat Roofing", "Guttering", "Chimney Work"],
+    heroTitle: "136 Reviews. Zero<br><span class='highlight'>Compromises.</span>",
+    heroDesc: "Evolution Roofing sets the standard for quality in Greater Manchester. From full replacements to urgent repairs — done right, first time.",
+    heroBadge: "<i class='fas fa-award'></i> 4.9 Stars — 136 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img2.jpg",
+    aboutQuote: "Christian and the lads did a fantastic job. We don't cut corners — ever. That's what 136 five-star reviews look like.",
+    ctaText: "REQUEST QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Christian",
+    stat1Val: "136",   stat1Label: "5-Star Reviews",
+    stat2Val: "4.9",   stat2Label: "Google Rating",
+    stat3Val: "10yr",  stat3Label: "Guarantee",
+    stat4Val: "Free",  stat4Label: "Survey",
+    servicesTitle: "Our Roofing Solutions",
+    servicesDesc: "Based on Broom Street, we cover all roofing requirements across Salford and Greater Manchester with guaranteed workmanship.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Replacements",  items: ["Full Re-Roofs", "Stripped & Rebuilt", "New Build Roofing"] },
+        { category: "Repairs",       items: ["Storm Damage", "Emergency Patching", "Tile & Slate Work"] },
+        { category: "Specialist",    items: ["Flat Roof Systems", "Leadwork", "Chimney Removal"] }
+    ],
+    whyTitle: "The Evolution Difference",
+    whyCards: [
+        { icon: "fa-award",        title: "136 Reviews",      desc: "Consistently rated 4.9 stars across 136 genuine customer reviews on Google." },
+        { icon: "fa-shield-alt",   title: "10yr Guarantee",   desc: "Every full replacement comes with a decade of insurance-backed protection." },
+        { icon: "fa-users",        title: "The Lads",         desc: "A tight, experienced crew. Christian and his team have been working together for years." },
+        { icon: "fa-clock",        title: "On Schedule",      desc: "We finish when we say we will. No delays, no excuses, no surprises." }
+    ],
+    aboutTag: "From Christian",
+    aboutTitle: "136 Reasons to Trust Us",
+    ownerTitle: "Founder, Evolution Roofing Ltd",
+    skills: [
+        { name: "Full Replacements",   pct: "100", icon: "fa-home" },
+        { name: "Storm & Emergency",   pct: "98",  icon: "fa-bolt" },
+        { name: "Flat Roofing",        pct: "95",  icon: "fa-layer-group" },
+        { name: "Customer Satisfaction", pct: "99", icon: "fa-smile" }
+    ],
+    reviews: [
+        { name: "Mark H.", text: "Christian and the lads did a fantastic job replacing my roof. Professional, tidy and great value.", loc: "Salford" },
+        { name: "Joanna F.", text: "Absolutely spotless work. They protected everything and left the site cleaner than they found it.", loc: "Eccles" }
+    ],
+    areas: ["Salford", "Eccles", "Worsley", "Swinton", "Pendleton"],
+    footerBizName1: "EVOLUTION",
+    footerBizName2: "ROOFING",
+    footerDesc: "Salford's premier roofing contractor. 136 five-star reviews. Guaranteed workmanship on every job.",
+    mapsUrl: "https://www.google.com/maps/place/EVOLUTION+ROOFING",
+    floatCta: "GET A QUOTE"
+},
+
+// ─── 3. LC ROOFING ───────────────────────────────────
+// Colour: Slate purple — professional, calm, reliable
+"lc_roofing": {
+    name1: "LC", name2: "ROOFING",
+    phone: "+44 161 327 2403",
+    email: "info@manchesterroofrepairs.co.uk",
+    color: "#5c3d8f",
+    colorDark: "#4a3072",
+    icon: "fa-tools",
+    locationName: "Manchester City Centre",
+    locationSub: "Rapid leak response. Open 24 hours.",
+    formServices: ["Emergency Leak Repair", "Roof Repair", "Flat Roofing", "Guttering", "Storm Damage"],
+    heroTitle: "Leak Fixed.<br><span class='highlight'>In a Single Day.</span>",
+    heroDesc: "LC Roofing specialises in fast, effective leak repairs across Manchester. 71 five-star reviews and a reputation for same-day solutions.",
+    heroBadge: "<i class='fas fa-clock'></i> 24hr Emergency Response",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "Lee and his team resolved my roof leak in a single day. That kind of speed and reliability is what we're known for.",
+    ctaText: "REPORT A LEAK",
+    secondaryBtn: "ALL SERVICES",
+    owner: "Lee",
+    stat1Val: "71",    stat1Label: "5-Star Reviews",
+    stat2Val: "5.0",   stat2Label: "Google Rating",
+    stat3Val: "24hr",  stat3Label: "Response",
+    stat4Val: "Free",  stat4Label: "Estimates",
+    servicesTitle: "Fast Roofing Solutions",
+    servicesDesc: "Based on Advent Way, we cover Manchester City Centre and surrounding areas. Got a leak? We're already on our way.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_6.jpg",
+    tree: [
+        { category: "Emergency",     items: ["Same-Day Leak Fix", "Storm Damage", "Temporary Weatherproofing"] },
+        { category: "Repairs",       items: ["Tile & Slate", "Flat Roof Patching", "Chimney Work"] },
+        { category: "Maintenance",   items: ["Gutter Clearance", "Annual Inspections", "Fascias & Soffits"] }
+    ],
+    whyTitle: "Why Customers Choose LC",
+    whyCards: [
+        { icon: "fa-bolt",        title: "Same-Day Fix",    desc: "Leaks don't wait. Neither do we. Our team responds fast to protect your home." },
+        { icon: "fa-star",        title: "5.0 Rated",       desc: "71 verified five-star reviews across Manchester. Quality you can count on." },
+        { icon: "fa-map-marker-alt", title: "City Centre", desc: "Based in Manchester and covering all city postcodes with rapid turnaround." },
+        { icon: "fa-check-circle",title: "Fully Insured",   desc: "All work is fully insured. You're protected from start to finish." }
+    ],
+    aboutTag: "About Lee & the Team",
+    aboutTitle: "Manchester's Leak Specialists",
+    ownerTitle: "Lead Roofer, LC Roofing",
+    skills: [
+        { name: "Emergency Leaks",     pct: "100", icon: "fa-bolt" },
+        { name: "Tile & Slate Repairs", pct: "98",  icon: "fa-home" },
+        { name: "Flat Roofing",        pct: "93",  icon: "fa-layer-group" },
+        { name: "Response Time",       pct: "100", icon: "fa-clock" }
+    ],
+    reviews: [
+        { name: "Sarah K.", text: "Lee and his team resolved my roof leak in a single day. Absolute lifesavers.", loc: "Manchester" },
+        { name: "Tom W.", text: "Called at 8am, fixed by 2pm. Brilliant service and a fair price.", loc: "Ancoats" }
+    ],
+    areas: ["Manchester City Centre", "Ancoats", "Ardwick", "Hulme", "Miles Platting"],
+    footerBizName1: "LC",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester's same-day leak repair specialists. Open 24 hours, 71 five-star reviews.",
+    mapsUrl: "https://www.google.com/maps/place/LC+Roofing",
+    floatCta: "REPORT LEAK"
+},
+
+// ─── 4. DM ROOFING ───────────────────────────────────
+// Colour: Gunmetal blue-grey — no-nonsense, after-hours
+"dm_roofing": {
+    name1: "DM", name2: "ROOFING",
+    phone: "+44 7792 703612",
+    email: "info@dm4roofingmanchester.co.uk",
+    color: "#2d4a6e",
+    colorDark: "#22395a",
+    icon: "fa-hammer",
+    locationName: "North Manchester",
+    locationSub: "Open until 8pm. Fair price guaranteed.",
+    formServices: ["Emergency Repairs", "Tile Replacement", "Full Re-Roof", "Flat Roofing", "Guttering"],
+    heroTitle: "Professional Roofing.<br><span class='highlight'>Fair Price. Always.</span>",
+    heroDesc: "DM Roofing delivers professional services and top quality across North Manchester. Open until 8pm — we're there when others aren't.",
+    heroBadge: "<i class='fas fa-clock'></i> Open Until 8pm — Evening Appointments Available",
+    heroImg: "assets/roofing/roofing_service_img2.jpg",
+    aboutQuote: "Professional services, top quality and fairly priced. That's been our standard since day one and it won't change.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "DM Team",
+    stat1Val: "96",    stat1Label: "5-Star Reviews",
+    stat2Val: "4.6",   stat2Label: "Google Rating",
+    stat3Val: "8pm",   stat3Label: "Closes",
+    stat4Val: "Free",  stat4Label: "Estimates",
+    servicesTitle: "Quality Roofing Services",
+    servicesDesc: "From Tottington Street, we cover North Manchester and surrounding areas. Evening availability means we fit around your schedule.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Repairs",       items: ["Emergency Leak Fix", "Tile & Slate", "Storm Damage"] },
+        { category: "Installations", items: ["Full Re-Roofs", "Flat Roof Systems", "New Guttering"] },
+        { category: "Maintenance",   items: ["Gutter Cleaning", "Roof Surveys", "Chimney Work"] }
+    ],
+    whyTitle: "The DM Roofing Standard",
+    whyCards: [
+        { icon: "fa-clock",        title: "Open Till 8pm",   desc: "Evening and weekend availability. We work around you, not the other way around." },
+        { icon: "fa-pound-sign",   title: "Fair Pricing",    desc: "96 reviews back up our reputation for honest, competitive quotes across Manchester." },
+        { icon: "fa-hard-hat",     title: "Top Quality",     desc: "Professional materials and skilled tradespeople on every single job." },
+        { icon: "fa-map-marker-alt", title: "North Manchester", desc: "Based in Tottington Street, covering all North Manchester postcodes." }
+    ],
+    aboutTag: "About DM Roofing",
+    aboutTitle: "Quality Without the Premium",
+    ownerTitle: "Lead Contractor, DM Roofing",
+    skills: [
+        { name: "Tile Replacements",   pct: "100", icon: "fa-home" },
+        { name: "Emergency Response",  pct: "95",  icon: "fa-bolt" },
+        { name: "Flat Roofing",        pct: "92",  icon: "fa-layer-group" },
+        { name: "Value for Money",     pct: "99",  icon: "fa-pound-sign" }
+    ],
+    reviews: [
+        { name: "Paul M.", text: "Professional services, top quality and fairly priced. Would use again without hesitation.", loc: "Bury" },
+        { name: "Helen S.", text: "Came in the evening which suited me perfectly. Job done properly and cleaned up after.", loc: "Whitefield" }
+    ],
+    areas: ["Bury", "Whitefield", "Radcliffe", "Ramsbottom", "Tottington"],
+    footerBizName1: "DM",
+    footerBizName2: "ROOFING",
+    footerDesc: "North Manchester roofers open until 8pm. Fair prices, professional results, 96 five-star reviews.",
+    mapsUrl: "https://www.google.com/maps/place/DM+Roofing",
+    floatCta: "CALL NOW"
+},
+
+// ─── 5. SAFEGUARD ROOFING ────────────────────────────
+// Colour: Deep amber/gold — safety, premium, trustworthy
+// HOTTEST LEAD — no website at all. 115 reviews, 5.0 stars.
+"safeguard_roofing": {
+    name1: "SAFEGUARD", name2: "ROOFING",
+    phone: "+44 7759 852170",
+    email: "info@safeguardroofing.co.uk",
+    color: "#c47f00",
+    colorDark: "#a36800",
+    icon: "fa-shield-alt",
+    locationName: "Wythenshawe & South Manchester",
+    locationSub: "115 five-star reviews. No website — until now.",
+    formServices: ["Roof Repairs", "Full Re-Roof", "Flat Roofing", "Guttering", "Chimney Work"],
+    heroTitle: "115 Reviews.<br><span class='highlight'>Excellent Every Time.</span>",
+    heroDesc: "Safeguard Roofing has earned 115 five-star reviews through excellent workmanship, very reasonable pricing, and reliable communication across South Manchester.",
+    heroBadge: "<i class='fas fa-star'></i> 5.0 Stars — 115 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "Excellent workmanship, very reasonable price, and good communication. That's what 115 five-star reviews sound like.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Safeguard Team",
+    stat1Val: "115",   stat1Label: "5-Star Reviews",
+    stat2Val: "5.0",   stat2Label: "Google Rating",
+    stat3Val: "7pm",   stat3Label: "Open Until",
+    stat4Val: "Free",  stat4Label: "Estimates",
+    servicesTitle: "Roofing You Can Trust",
+    servicesDesc: "From Melville Road, we serve Wythenshawe and all surrounding South Manchester postcodes. Repairs, re-roofs, guttering and more.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_6.jpg",
+    tree: [
+        { category: "Repairs",       items: ["Tile & Slate", "Emergency Leaks", "Chimney Repointing"] },
+        { category: "Installations", items: ["Full Re-Roofs", "Flat Roof Systems", "EPDM Rubber"] },
+        { category: "Maintenance",   items: ["Gutter Clearing", "Roof Surveys", "Fascias & Soffits"] }
+    ],
+    whyTitle: "Why 115 Customers Gave 5 Stars",
+    whyCards: [
+        { icon: "fa-star",         title: "5.0 Rating",      desc: "Every one of our 115 Google reviews is five stars. We don't accept anything less." },
+        { icon: "fa-pound-sign",   title: "Reasonable Price", desc: "Top quality workmanship at a price that feels fair. No inflated quotes." },
+        { icon: "fa-comments",     title: "Good Communication", desc: "We keep you informed from first call to final inspection. No surprises." },
+        { icon: "fa-hard-hat",     title: "Expert Tradespeople", desc: "Experienced roofers on every job. Your home is in safe hands." }
+    ],
+    aboutTag: "About Safeguard",
+    aboutTitle: "South Manchester's 5-Star Roofers",
+    ownerTitle: "Lead Roofer, Safeguard Roofing",
+    skills: [
+        { name: "Tile & Slate Work",     pct: "100", icon: "fa-home" },
+        { name: "Flat Roofing",          pct: "96",  icon: "fa-layer-group" },
+        { name: "Customer Communication", pct: "100", icon: "fa-comments" },
+        { name: "Value for Money",       pct: "99",  icon: "fa-pound-sign" }
+    ],
+    reviews: [
+        { name: "Rachel H.", text: "Excellent workmanship, very reasonable price, and good communication throughout. Highly recommend.", loc: "Wythenshawe" },
+        { name: "Greg P.", text: "Used Safeguard twice now. Consistent quality and always leaves the site spotless.", loc: "Gatley" }
+    ],
+    areas: ["Wythenshawe", "Gatley", "Cheadle", "Northenden", "Benchill"],
+    footerBizName1: "SAFEGUARD",
+    footerBizName2: "ROOFING",
+    footerDesc: "South Manchester's top-rated roofers. 115 five-star reviews, excellent workmanship, fair prices.",
+    mapsUrl: "https://www.google.com/maps/place/Safeguard+Roofing",
+    floatCta: "GET A QUOTE"
+},
+
+// ─── 6. DELTA ROOF REPAIRS ───────────────────────────
+// Colour: Deep burgundy/wine — premium finish, city-based
+"delta_roof_repairs": {
+    name1: "DELTA", name2: "ROOFING",
+    phone: "+44 7480 156010",
+    email: "info@deltaroofingrepairs.co.uk",
+    color: "#7b1f3a",
+    colorDark: "#621830",
+    icon: "fa-tools",
+    locationName: "Manchester City Centre",
+    locationSub: "56 five-star reviews. Finished ahead of schedule.",
+    formServices: ["Emergency Repairs", "Full Re-Roof", "Flat Roofing", "Chimney Work", "Guttering"],
+    heroTitle: "Finished Ahead of<br><span class='highlight'>Schedule. Every Time.</span>",
+    heroDesc: "Delta Roof Repairs is the City Centre team Manchester trusts to finish on time and on budget. 56 five-star reviews speak for themselves.",
+    heroBadge: "<i class='fas fa-check-circle'></i> 5.0 Stars — 56 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img2.jpg",
+    aboutQuote: "They finished our roof ahead of time, and it looks amazing. We deliver what we promise — and then some.",
+    ctaText: "REQUEST QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Delta Team",
+    stat1Val: "56",    stat1Label: "5-Star Reviews",
+    stat2Val: "5.0",   stat2Label: "Google Rating",
+    stat3Val: "24hr",  stat3Label: "Emergency",
+    stat4Val: "Free",  stat4Label: "Survey",
+    servicesTitle: "City Centre Roofing",
+    servicesDesc: "Based on Great Ancoats Street. We cover Manchester city centre and inner suburbs — fast, professional, and always ahead of schedule.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Emergency",     items: ["24hr Leak Response", "Storm Damage", "Temporary Fixes"] },
+        { category: "Installations", items: ["Full Re-Roofs", "Flat Roof Systems", "Leadwork"] },
+        { category: "Repairs",       items: ["Tile & Slate", "Chimney Work", "Guttering & Soffits"] }
+    ],
+    whyTitle: "The Delta Commitment",
+    whyCards: [
+        { icon: "fa-calendar-check", title: "On Schedule",    desc: "We've never missed a deadline. Customers consistently say we finish ahead of time." },
+        { icon: "fa-star",           title: "5.0 Rated",      desc: "56 five-star reviews from Manchester homeowners who'd use us again." },
+        { icon: "fa-clock",          title: "24hr Emergency", desc: "Available around the clock for urgent leaks and storm damage across the city." },
+        { icon: "fa-map-marker-alt", title: "City Based",     desc: "Great Ancoats Street base means we're minutes away from most city postcodes." }
+    ],
+    aboutTag: "About Delta",
+    aboutTitle: "Ahead of Time. Every Job.",
+    ownerTitle: "Lead Contractor, Delta Roof Repairs",
+    skills: [
+        { name: "Project Scheduling",  pct: "100", icon: "fa-calendar-check" },
+        { name: "Emergency Response",  pct: "98",  icon: "fa-bolt" },
+        { name: "Flat Roofing",        pct: "95",  icon: "fa-layer-group" },
+        { name: "Workmanship Quality", pct: "100", icon: "fa-star" }
+    ],
+    reviews: [
+        { name: "Andrew B.", text: "They finished our roof ahead of time, and it looks amazing. Very professional team.", loc: "Ancoats" },
+        { name: "Diane R.", text: "Prompt, tidy, and excellent quality. Already recommended to my neighbour.", loc: "Northern Quarter" }
+        ],
+    areas: ["Ancoats", "Northern Quarter", "Ardwick", "Openshaw", "Beswick"],
+    footerBizName1: "DELTA",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester City Centre roofing specialists. 56 five-star reviews. Always finished ahead of schedule.",
+    mapsUrl: "https://www.google.com/maps/place/Delta+Roof+Repairs+Limited",
+    floatCta: "CALL NOW"
+ }
 };
 function injectBusinessData() {
     const params = new URLSearchParams(window.location.search);
