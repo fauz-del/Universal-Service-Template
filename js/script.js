@@ -55,6 +55,7 @@ const businessData = {
         footerBizName1: "ALCO",
         footerBizName2: "ROOFING",
         footerDesc: "Expert roofing services across Audenshaw and Greater Manchester. Family run, fully insured, and highly recommended.",
+        footerEmail: "info@alcoroofing.co.uk",
         mapsUrl: "https://google.com...",
         floatCta: "GET A QUOTE"        
     },
@@ -480,7 +481,6 @@ const businessData = {
     mapsUrl: "https://www.google.com/maps/place/Safeguard+Roofing",
     floatCta: "GET A QUOTE"
 },
-
 // ─── 6. DELTA ROOF REPAIRS ───────────────────────────
 // Colour: Deep burgundy/wine — premium finish, city-based
 "delta_roof_repairs": {
@@ -540,6 +540,360 @@ const businessData = {
     footerDesc: "Manchester City Centre roofing specialists. 56 five-star reviews. Always finished ahead of schedule.",
     mapsUrl: "https://www.google.com/maps/place/Delta+Roof+Repairs+Limited",
     floatCta: "CALL NOW"
+ },
+ 
+ "sterling_roofing": {
+    name1: "STERLING", name2: "ROOFING",
+    phone: "0161 390 0513",
+    email: "",
+    color: "#1a3a5c",
+    colorDark: "#122840",
+    icon: "fa-hard-hat",
+    locationName: "Greater Manchester",
+    locationSub: "Founded by Patrick. Time-served craftsmen.",
+    formServices: ["New Roof Installation", "Flat Roofing", "Roof Repairs", "Guttering", "Emergency Callouts"],
+    heroTitle: "Built by Craftsmen.<br><span class='highlight'>Guaranteed 20 Years.</span>",
+    heroDesc: "Founded by Patrick, Sterling Roofing delivers precision installations and reliable repairs across Manchester. Free site visits, payment on completion only.",
+    heroBadge: "<i class='fas fa-award'></i> Written Warranties up to 20 Years",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "We came and did the roof in 3 days and it looks great. That's the Sterling standard — on time, on budget, outstanding finish.",
+    ctaText: "GET FREE QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Patrick",
+    stat1Val: "20yr",  stat1Label: "Guarantee",
+    stat2Val: "5.0",   stat2Label: "Google Rating",
+    stat3Val: "Free",  stat3Label: "Site Visits",
+    stat4Val: "0%",    stat4Label: "Upfront Payment",
+    servicesTitle: "Our Roofing Services",
+    servicesDesc: "From flat roofs to full installations — Sterling Roofing uses the finest materials and time-served techniques across Greater Manchester.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_6.jpg",
+    tree: [
+        { category: "Flat Roofing",   items: ["EPDM Rubber", "GRP Fibreglass", "TPO Systems"] },
+        { category: "Traditional",    items: ["Slate & Tile", "Full Re-Roofs", "Leadwork"] },
+        { category: "Maintenance",    items: ["Free Surveys", "Roof Cleaning", "Emergency Repairs"] }
+    ],
+    whyTitle: "The Sterling Difference",
+    whyCards: [
+        { icon: "fa-award",        title: "20yr Guarantee",   desc: "Written warranties on all jobs — up to 20 years on flat roofing systems." },
+        { icon: "fa-pound-sign",   title: "Pay on Completion", desc: "No upfront payment required. You pay only when you're completely satisfied." },
+        { icon: "fa-hard-hat",     title: "Time-Served Team", desc: "Founded by Patrick — a team of craftsmen with decades of hands-on experience." },
+        { icon: "fa-check-circle", title: "Free Site Visit",  desc: "We come to you, assess the job properly, and quote with no obligation." }
+    ],
+    aboutTag: "From Patrick",
+    aboutTitle: "Craftsmanship You Can Trust",
+    ownerTitle: "Founder, Sterling Roofing Contractors Ltd",
+    skills: [
+        { name: "Flat Roofing Systems", pct: "100", icon: "fa-layer-group" },
+        { name: "Slate & Tile Work",    pct: "98",  icon: "fa-home" },
+        { name: "Customer Satisfaction", pct: "100", icon: "fa-smile" },
+        { name: "On-Time Delivery",     pct: "99",  icon: "fa-calendar-check" }
+    ],
+    reviews: [
+        { name: "Tom G.", text: "Really happy with it — they came and did my roof in 3 days and it looks great.", loc: "Manchester" },
+        { name: "Wendy S.", text: "Free site visit, fair quote, paid on completion. Exactly as promised. Brilliant.", loc: "Salford" }
+    ],
+    areas: ["Manchester", "Salford", "Stockport", "Oldham", "Trafford"],
+    footerBizName1: "STERLING",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester roofing specialists. 20-year guarantees, free site visits, and payment only on completion.",
+    mapsUrl: "https://www.google.com/maps/place/Sterling+Roofing+Contractors+Ltd",
+    floatCta: "GET A QUOTE"
+},
+
+"bds_roofing": {
+    name1: "BDS", name2: "ROOFING",
+    phone: "+44 7852 452142",
+    email: "",
+    color: "#2c4a1e",
+    colorDark: "#1e3314",
+    icon: "fa-tools",
+    locationName: "Manchester & Tameside",
+    locationSub: "Ask for Brendan. 24hr availability.",
+    formServices: ["Roof Repairs", "Extension Roofs", "Full Re-Roof", "Flat Roofing", "Chimney Work"],
+    heroTitle: "Brendan's Team.<br><span class='highlight'>Outstanding Every Time.</span>",
+    heroDesc: "BDS Roofing delivers top quality across Manchester and Tameside. Ask for Brendan — the name customers recommend to family and friends.",
+    heroBadge: "<i class='fas fa-clock'></i> Open 24 Hours — Emergency Response",
+    heroImg: "assets/roofing/roofing_service_img2.jpg",
+    aboutQuote: "Brendan was really helpful, provided a competitive price and completed the work really efficiently. Definitely the best roofer in Manchester.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Brendan",
+    stat1Val: "5.0",   stat1Label: "Google Rating",
+    stat2Val: "24hr",  stat2Label: "Availability",
+    stat3Val: "Free",  stat3Label: "Quotes",
+    stat4Val: "10/10", stat4Label: "Customer Score",
+    servicesTitle: "Roofing Services",
+    servicesDesc: "BDS Roofing covers all aspects of roofing across Manchester and Tameside. No job too big or too small for Brendan and the team.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Repairs",       items: ["Emergency Leaks", "Tile Replacement", "Chimney Drops"] },
+        { category: "Installations", items: ["Extension Roofs", "Full Re-Roofs", "Flat Roof Systems"] },
+        { category: "Maintenance",   items: ["Gutter Clearing", "Roof Surveys", "Storm Damage"] }
+    ],
+    whyTitle: "Why Customers Choose Brendan",
+    whyCards: [
+        { icon: "fa-user",         title: "Ask for Brendan",  desc: "Every review mentions Brendan by name. Personal, professional, and genuinely helpful." },
+        { icon: "fa-clock",        title: "24hr Available",   desc: "Emergency roofing across Manchester and Tameside any time of day or night." },
+        { icon: "fa-pound-sign",   title: "Competitive Price", desc: "Customers consistently say BDS gives the best price without cutting corners." },
+        { icon: "fa-tools",        title: "All Roof Types",   desc: "From chimney drops to full re-roofs — no job too big or too small." }
+    ],
+    aboutTag: "About Brendan",
+    aboutTitle: "The Roofer Manchester Recommends",
+    ownerTitle: "Owner, BDS Roofing Ltd",
+    skills: [
+        { name: "Emergency Repairs",   pct: "100", icon: "fa-bolt" },
+        { name: "Extension Roofing",   pct: "98",  icon: "fa-home" },
+        { name: "Customer Service",    pct: "100", icon: "fa-smile" },
+        { name: "Value for Money",     pct: "99",  icon: "fa-pound-sign" }
+    ],
+    reviews: [
+        { name: "James P.", text: "Did a top job dropping my chimney — wouldn't go anywhere else. 👍", loc: "Tameside" },
+        { name: "Claire N.", text: "Brendan was professional, really competitive price and completed efficiently. Best roofer in Manchester.", loc: "Manchester" }
+    ],
+    areas: ["Manchester", "Tameside", "Ashton-under-Lyne", "Droylsden", "Failsworth"],
+    footerBizName1: "BDS",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester and Tameside roofing specialists. Ask for Brendan — available 24 hours, outstanding every time.",
+    mapsUrl: "https://www.google.com/maps/place/BDS+Roofing+Ltd",
+    floatCta: "CALL NOW"
+},
+
+"manchester_roofing_contractors": {
+    name1: "MANCHESTER", name2: "CONTRACTORS",
+    phone: "+44 161 401 4042",
+    email: "",
+    color: "#3d1f5e",
+    colorDark: "#2e1748",
+    icon: "fa-drafting-compass",
+    locationName: "Manchester City Centre",
+    locationSub: "Specialists in flat roofing systems.",
+    formServices: ["GRP Fibreglass Roofing", "Flat Roof Systems", "Roof Repairs", "Leadwork", "Chimney Work"],
+    heroTitle: "Manchester's Flat<br><span class='highlight'>Roofing Specialists.</span>",
+    heroDesc: "Manchester Roofing Contractors Ltd are experts in all flat roofing systems — GRP, EPDM, leadwork and more. Prompt, professional, and perfectly priced.",
+    heroBadge: "<i class='fas fa-check-circle'></i> 5.0 Stars — 25 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "The team was prompt, professional, and did a neat, efficient job. That's what every Manchester Roofing Contractors customer experiences.",
+    ctaText: "REQUEST QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "MRC Team",
+    stat1Val: "25",    stat1Label: "5-Star Reviews",
+    stat2Val: "5.0",   stat2Label: "Google Rating",
+    stat3Val: "24hr",  stat3Label: "Emergency",
+    stat4Val: "Free",  stat4Label: "Estimates",
+    servicesTitle: "Specialist Roofing",
+    servicesDesc: "Based on Deansgate, we cover Manchester City Centre and surrounding areas. Specialists in GRP fibreglass and all flat roofing systems.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_6.jpg",
+    tree: [
+        { category: "Flat Roofing",  items: ["GRP Fibreglass", "EPDM Rubber", "Felt Systems"] },
+        { category: "Traditional",   items: ["Slate & Tile", "Leadwork", "Chimney Repairs"] },
+        { category: "All Aspects",   items: ["Emergency Callouts", "Guttering", "Roof Inspections"] }
+    ],
+    whyTitle: "Why Choose Manchester Contractors",
+    whyCards: [
+        { icon: "fa-layer-group",  title: "Flat Roof Experts", desc: "Specialists in GRP, EPDM and all modern flat roofing systems." },
+        { icon: "fa-star",         title: "5.0 Rated",         desc: "25 perfect five-star reviews from Manchester homeowners." },
+        { icon: "fa-tools",        title: "All Aspects",       desc: "From leadwork to chimney repairs — one team for everything." },
+        { icon: "fa-clock",        title: "Prompt Service",    desc: "Customers consistently highlight our punctuality and efficiency." }
+    ],
+    aboutTag: "About Our Team",
+    aboutTitle: "Prompt. Professional. Perfect.",
+    ownerTitle: "Lead Contractor, Manchester Roofing Contractors Ltd",
+    skills: [
+        { name: "GRP Flat Roofing",    pct: "100", icon: "fa-layer-group" },
+        { name: "Traditional Roofing", pct: "96",  icon: "fa-home" },
+        { name: "Emergency Response",  pct: "95",  icon: "fa-bolt" },
+        { name: "Customer Satisfaction", pct: "100", icon: "fa-smile" }
+    ],
+    reviews: [
+        { name: "Rachel T.", text: "The team was prompt, professional, and did a neat, efficient job. Highly recommended.", loc: "Deansgate" },
+        { name: "Stuart H.", text: "Specialists who actually know flat roofing. First class job at a fair price.", loc: "Manchester" }
+    ],
+    areas: ["Manchester City Centre", "Deansgate", "Castlefield", "Hulme", "Salford"],
+    footerBizName1: "MANCHESTER",
+    footerBizName2: "CONTRACTORS",
+    footerDesc: "Manchester's flat roofing specialists. GRP, EPDM, and all roofing systems covered.",
+    mapsUrl: "https://www.google.com/maps/place/Manchester+Roofing+Contractors+Ltd",
+    floatCta: "GET A QUOTE"
+}, 
+    
+     "all_guard_roofing": {
+    name1: "ALL GUARD", name2: "ROOFING",
+    phone: "+44 161 706 1911",
+    email: "",
+    color: "#1d4e7a",
+    colorDark: "#163d61",
+    icon: "fa-shield-alt",
+    locationName: "South Manchester",
+    locationSub: "50 five-star reviews. 24hr emergency service.",
+    formServices: ["Emergency Repairs", "Roof Replacement", "Flat Roofing", "Guttering", "Chimney Work"],
+    heroTitle: "Urgently Need<br><span class='highlight'>A Roofer? We're Ready.</span>",
+    heroDesc: "All Guard Roofing delivers fast, expert solutions when you need them most. 50 five-star reviews from South Manchester homeowners who relied on us in a crisis.",
+    heroBadge: "<i class='fas fa-clock'></i> 24hr Emergency Service Available",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "We needed to fix our roof urgently and they did a fantastic job. When it's urgent, All Guard answers the call.",
+    ctaText: "EMERGENCY CALL",
+    secondaryBtn: "ALL SERVICES",
+    owner: "All Guard Team",
+    stat1Val: "50",    stat1Label: "5-Star Reviews",
+    stat2Val: "5.0",   stat2Label: "Google Rating",
+    stat3Val: "24hr",  stat3Label: "Emergency",
+    stat4Val: "Free",  stat4Label: "Survey",
+    servicesTitle: "Emergency & Planned Roofing",
+    servicesDesc: "Based on Stamford Street, we cover South Manchester and are on call 24 hours for urgent roof failures and storm damage.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Emergency",    items: ["24hr Leak Response", "Storm Damage", "Urgent Patching"] },
+        { category: "Planned Work", items: ["Full Re-Roofs", "Flat Roof Systems", "Chimney Removal"] },
+        { category: "Maintenance",  items: ["Gutter Clearing", "Annual Surveys", "Fascia Replacement"] }
+    ],
+    whyTitle: "When It's Urgent, Call All Guard",
+    whyCards: [
+        { icon: "fa-clock",         title: "24hr Ready",      desc: "Emergencies don't wait for business hours. We're available around the clock." },
+        { icon: "fa-star",          title: "5.0 Rated",       desc: "50 five-star reviews from South Manchester homeowners who relied on us in a crisis." },
+        { icon: "fa-bolt",          title: "Rapid Response",  desc: "We mobilise fast. Your home will be protected as quickly as possible." },
+        { icon: "fa-check-circle",  title: "Fully Insured",   desc: "All work is fully insured and guaranteed. Complete peace of mind." }
+    ],
+    aboutTag: "About All Guard",
+    aboutTitle: "When It's Urgent, We Deliver",
+    ownerTitle: "Lead Contractor, All Guard Roofing Ltd",
+    skills: [
+        { name: "Emergency Response",   pct: "100", icon: "fa-bolt" },
+        { name: "Storm Damage Repair",  pct: "98",  icon: "fa-cloud-showers-heavy" },
+        { name: "Full Re-Roofs",        pct: "95",  icon: "fa-home" },
+        { name: "Customer Care",        pct: "100", icon: "fa-smile" }
+    ],
+    reviews: [
+        { name: "Fiona M.", text: "We needed to fix our roof urgently and they did a fantastic job! Fast, tidy and professional.", loc: "Cheadle" },
+        { name: "Brian C.", text: "Called at 11pm, someone was with us by 8am. Incredible service.", loc: "Gatley" }
+    ],
+    areas: ["Cheadle", "Gatley", "Heald Green", "Wilmslow", "Altrincham"],
+    footerBizName1: "ALL GUARD",
+    footerBizName2: "ROOFING",
+    footerDesc: "South Manchester's 24-hour emergency roofers. 50 five-star reviews. Fast response when it matters most.",
+    mapsUrl: "https://www.google.com/maps/place/All+Guard+Roofing+Ltd",
+    floatCta: "EMERGENCY CALL"
+},
+
+"gd_roofing": {
+    name1: "G&D", name2: "ROOFING",
+    phone: "+44 7909 652020",
+    email: "",
+    color: "#8b3a2a",
+    colorDark: "#712f22",
+    icon: "fa-hammer",
+    locationName: "South Manchester",
+    locationSub: "Prompt service. Reasonable quotes. No fuss.",
+    formServices: ["Roof Repairs", "Guttering", "Tile Replacement", "Flat Roofing", "Inspections"],
+    heroTitle: "Prompt. Reliable.<br><span class='highlight'>Reasonably Priced.</span>",
+    heroDesc: "G&D Roofing keeps it simple — we turn up when we say, assess the job properly, and give you a fair quote. No pressure, no nonsense.",
+    heroBadge: "<i class='fas fa-map-marker-alt'></i> Covering South Manchester",
+    heroImg: "assets/roofing/roofing_service_img2.jpg",
+    aboutQuote: "He came promptly, assessed the work and the quote was very reasonable. That's our approach on every single job.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "G&D Team",
+    stat1Val: "4.2",   stat1Label: "Google Rating",
+    stat2Val: "10",    stat2Label: "Reviews",
+    stat3Val: "24hr",  stat3Label: "Response",
+    stat4Val: "Free",  stat4Label: "Quotes",
+    servicesTitle: "Straightforward Roofing",
+    servicesDesc: "Based on Whalley Road, we serve South Manchester with honest roofing services — repairs, guttering, tiles, and inspections.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_6.jpg",
+    tree: [
+        { category: "Repairs",   items: ["Tile Replacement", "Leak Fixes", "Ridge & Hip Repairs"] },
+        { category: "External",  items: ["Gutter Replacement", "Downpipes", "Fascias & Soffits"] },
+        { category: "Checks",    items: ["Roof Inspections", "Pre-Sale Surveys", "Insurance Reports"] }
+    ],
+    whyTitle: "Simple, Honest Roofing",
+    whyCards: [
+        { icon: "fa-clock",          title: "We Turn Up",       desc: "We arrive when we say we will. No waiting around, no chasing for updates." },
+        { icon: "fa-pound-sign",     title: "Fair Quotes",      desc: "No inflated estimates. We assess the job properly and quote accordingly." },
+        { icon: "fa-map-marker-alt", title: "South Manchester", desc: "Local team covering Whalley Road and all surrounding South Manchester postcodes." },
+        { icon: "fa-tools",          title: "All Aspects",      desc: "Repairs, guttering, tiles, and inspections. One team for everything." }
+    ],
+    aboutTag: "About G&D",
+    aboutTitle: "No Fuss. Just Good Roofing.",
+    ownerTitle: "Lead Roofer, G&D Roofing",
+    skills: [
+        { name: "Tile Repairs",      pct: "100", icon: "fa-home" },
+        { name: "Guttering",         pct: "97",  icon: "fa-water" },
+        { name: "Roof Inspections",  pct: "95",  icon: "fa-search" },
+        { name: "Response Speed",    pct: "98",  icon: "fa-bolt" }
+    ],
+    reviews: [
+        { name: "Janet P.", text: "He came promptly, assessed the work and the quote was very reasonable. Solid job.", loc: "Whalley Range" },
+        { name: "Steve O.", text: "Straightforward, no pressure, got the job done. Would call again.", loc: "Chorlton" }
+    ],
+    areas: ["Whalley Range", "Chorlton", "Didsbury", "Withington", "Fallowfield"],
+    footerBizName1: "G&D",
+    footerBizName2: "ROOFING",
+    footerDesc: "South Manchester roofing. Prompt service, honest quotes, reliable results.",
+    mapsUrl: "https://www.google.com/maps/place/G+%26+D+Roofing+%26+Guttering",
+    floatCta: "GET A QUOTE"
+},
+
+"capital_roofing": {
+    name1: "CAPITAL", name2: "ROOFING",
+    phone: "+44 7498 639586",
+    email: "",
+    color: "#2e5e4e",
+    colorDark: "#234a3d",
+    icon: "fa-drafting-compass",
+    locationName: "Greater Manchester & Wigan",
+    locationSub: "43 five-star reviews. On time and spotless.",
+    formServices: ["Full Re-Roof", "Flat Roofing", "Tile Repairs", "Guttering", "Chimney Work"],
+    heroTitle: "Finished on Time.<br><span class='highlight'>Looks Excellent.</span>",
+    heroDesc: "Capital Roofing delivers premium results across Greater Manchester and Wigan. 43 five-star reviews from customers who got exactly what was promised.",
+    heroBadge: "<i class='fas fa-check-circle'></i> 4.9 Stars — 43 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img2.jpg",
+    aboutQuote: "They finished on time, kept the area clean, and the roof looks excellent. That's the Capital Roofing standard on every job.",
+    ctaText: "REQUEST QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Capital Team",
+    stat1Val: "43",    stat1Label: "5-Star Reviews",
+    stat2Val: "4.9",   stat2Label: "Google Rating",
+    stat3Val: "24hr",  stat3Label: "Emergency",
+    stat4Val: "Free",  stat4Label: "Survey",
+    servicesTitle: "Premium Roofing Contractors",
+    servicesDesc: "Covering Greater Manchester and Wigan. Capital Roofing delivers high-end results for residential and commercial properties.",
+    serviceMainImg: "assets/roofing/roofing_service_img_4.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Residential",  items: ["Full Re-Roofs", "Tile & Slate", "Flat Roof Systems"] },
+        { category: "Commercial",   items: ["Flat Roof Installations", "GRP Fibreglass", "EPDM Rubber"] },
+        { category: "Maintenance",  items: ["Annual Inspections", "Gutter Systems", "Storm Damage"] }
+    ],
+    whyTitle: "The Capital Standard",
+    whyCards: [
+        { icon: "fa-calendar-check", title: "Always on Time",  desc: "43 reviews confirm it — we start on schedule and finish when we say." },
+        { icon: "fa-broom",          title: "Site Left Clean", desc: "We leave your property cleaner than we found it. Every single time." },
+        { icon: "fa-star",           title: "4.9 Rated",       desc: "Near-perfect reviews from homeowners across Manchester and Wigan." },
+        { icon: "fa-home",           title: "Premium Finish",  desc: "We don't cut corners. Every roof we complete is one we're proud to put our name on." }
+    ],
+    aboutTag: "About Capital Roofing",
+    aboutTitle: "Premium Finish. Guaranteed.",
+    ownerTitle: "Lead Contractor, Capital Roofing Contractors Ltd",
+    skills: [
+        { name: "Full Re-Roofs",      pct: "100", icon: "fa-home" },
+        { name: "Flat Roofing",       pct: "97",  icon: "fa-layer-group" },
+        { name: "Site Cleanliness",   pct: "100", icon: "fa-broom" },
+        { name: "Project Delivery",   pct: "99",  icon: "fa-calendar-check" }
+    ],
+    reviews: [
+        { name: "Robert S.", text: "They finished on time, kept the area clean, and the roof looks excellent. Couldn't ask for more.", loc: "Leigh" },
+        { name: "Amanda K.", text: "Professional from start to finish. Premium quality at a competitive price.", loc: "Wigan" }
+    ],
+    areas: ["Wigan", "Leigh", "Atherton", "Hindley", "Golborne"],
+    footerBizName1: "CAPITAL",
+    footerBizName2: "ROOFING",
+    footerDesc: "Greater Manchester and Wigan roofing contractors. Premium finish, on time, site left spotless.",
+    mapsUrl: "https://www.google.com/maps/place/Capital+Roofing+Contractors+Ltd",
+    floatCta: "GET A QUOTE"
  }
 };
 function injectBusinessData() {
@@ -583,10 +937,6 @@ function injectBusinessData() {
     if (document.getElementById('service-img-main')) document.getElementById('service-img-main').src = biz.serviceMainImg;
     if (document.getElementById('service-img-overlay')) document.getElementById('service-img-overlay').src = biz.serviceOverlayImg;
     
-    //footer
-    if (document.getElementById('footer-biz-name-1')) document.getElementById('footer-biz-name-1').innerText = biz.footerBizName1;
-    if (document.getElementById('footer-biz-name-2')) document.getElementById('footer-biz-name-2').innerText = biz.footerBizName2;
-
     const treeContainer = document.getElementById('services-list');
     if (treeContainer && biz.tree) {
         treeContainer.innerHTML = '';
@@ -681,13 +1031,22 @@ function injectBusinessData() {
         link.href = `tel:${biz.phone.replace(/\s/g, '')}`;
     });
     
-        // ─── EMAIL INJECTION ───
-    const footerEmail = document.getElementById('footer-email');
-    if (footerEmail && biz.email) {
+        // ─── EMAIL INJECTION ───const footerEmail = document.getElementById('footer-email');
+      const footerEmail = document.getElementById('footer-email');
+if (footerEmail) {
+    if (biz.email) {
         footerEmail.innerText = biz.email;
         footerEmail.href = `mailto:${biz.email}`;
+        footerEmail.style.display = 'block';
+    } else {
+        const emailLine = footerEmail.closest('.fc-line');
+        if (emailLine) emailLine.style.display = 'none';
+      }
     }
-}
+    
+    
+  }
+
 
 // ─── UI LOGIC ───
 document.addEventListener('DOMContentLoaded', () => {
