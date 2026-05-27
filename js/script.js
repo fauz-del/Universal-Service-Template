@@ -894,7 +894,633 @@ const businessData = {
     footerDesc: "Greater Manchester and Wigan roofing contractors. Premium finish, on time, site left spotless.",
     mapsUrl: "https://www.google.com/maps/place/Capital+Roofing+Contractors+Ltd",
     floatCta: "GET A QUOTE"
- }
+ },   
+ 
+  // ============================================================
+// TUESDAY NEW OUTREACH — ROOFING CONFIGS
+// Fauzie Web Development & Design
+// Template: https://fauz-del.github.io/Universal-Service-Template/
+// ============================================================
+
+"mg_roofing": {
+    name1: "MG ROOFING",
+    name2: "& SERVICES",
+    phone: "+44 7514 471046",
+    email: "info@mgroofingservices.com",
+    color: "#1b4332",
+    colorDark: "#081c15",
+    icon: "fa-hard-hat",
+    locationName: "Birmingham",
+    locationSub: "Covering Birmingham and surrounding areas.",
+    formServices: ["Roof Replacement", "Repairs", "Flat Roofs", "Guttering", "Chimney Work"],
+    heroTitle: "Birmingham's Trusted<br><span class='highlight'>Roofing Specialists.</span>",
+    heroDesc: "4.9-star rated roofing professionals delivering expert repairs and full replacements across Birmingham. Quality workmanship, fair prices.",
+    heroBadge: "<i class='fas fa-star'></i> 4.9 Stars — 86 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "Every job, big or small, gets the same level of care and attention to detail.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "MG Roofing Team",
+    stat1Val: "86",      stat1Label: "5-Star Reviews",
+    stat2Val: "4.9★",   stat2Label: "Google Rating",
+    stat3Val: "100%",    stat3Label: "Quality Work",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Professional Roofing Services",
+    servicesDesc: "From full re-roofs to emergency repairs, MG Roofing delivers reliable and professional service across Birmingham.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing", items: ["Full Re-Roofs", "Tile & Slate Repairs", "Emergency Patching"] },
+        { category: "External", items: ["Guttering", "Fascias & Soffits", "Chimney Work"] },
+        { category: "Specialist", items: ["Flat Roof Systems", "Storm Damage", "Roof Inspections"] }
+    ],
+    whyTitle: "Why Choose MG Roofing",
+    whyCards: [
+        { icon: "fa-star",        title: "4.9 Rated",        desc: "86 verified customers consistently rate us near-perfect for quality and reliability." },
+        { icon: "fa-tools",       title: "Expert Team",      desc: "Skilled roofers with years of hands-on experience across all roofing types." },
+        { icon: "fa-pound-sign",  title: "Fair Pricing",     desc: "Transparent quotes with no hidden costs — quality work at a competitive price." },
+        { icon: "fa-check-circle","title": "Fully Reliable", desc: "We show up on time, do the job right, and leave your property clean and tidy." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Expert Roofing Across Birmingham",
+    ownerTitle: "Lead Contractor, MG Roofing & Services LTD",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Repairs & Patching", pct: "99", icon: "fa-tools" },
+        { name: "Guttering",         pct: "95", icon: "fa-water" },
+        { name: "Reliability",       pct: "98", icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "James R.", text: "MG Roofing did a fantastic job on our full roof replacement. Professional and tidy throughout.", loc: "Birmingham" },
+        { name: "Paula T.", text: "Excellent service from start to finish. Highly recommended — fair price and great quality.", loc: "Birmingham" }
+    ],
+    areas: ["Birmingham", "Sutton Coldfield", "Solihull", "Erdington", "Edgbaston"],
+    footerBizName1: "MG ROOFING",
+    footerBizName2: "& SERVICES",
+    footerDesc: "Professional roofing contractors based in Birmingham. Delivering quality repairs and full replacements with a 4.9-star reputation.",
+    mapsUrl: "https://www.google.com/maps/search/MG+Roofing+services+Birmingham",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"manchester_ashton_roofing": {
+    name1: "MANCHESTER",
+    name2: "& ASHTON ROOFING",
+    phone: "+44 161 370 6571",
+    email: "info@manchesterandashton-roofing.co.uk",
+    color: "#7c2d12",
+    colorDark: "#431407",
+    icon: "fa-home",
+    locationName: "Ashton-under-Lyne, Manchester",
+    locationSub: "Serving Manchester and the surrounding areas.",
+    formServices: ["Roof Replacement", "Repairs", "Flat Roofs", "Guttering", "Chimney Work"],
+    heroTitle: "Manchester & Ashton's<br><span class='highlight'>Roofing Experts.</span>",
+    heroDesc: "Trusted roofing contractors serving Greater Manchester for years. Quality repairs, replacements, and guttering at honest prices.",
+    heroBadge: "<i class='fas fa-map-marker-alt'></i> Based in Ashton — Covering All Manchester",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "Local knowledge, honest pricing, and a job done right — every time.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Manchester & Ashton Roofing Team",
+    stat1Val: "48",      stat1Label: "5-Star Reviews",
+    stat2Val: "4.5★",   stat2Label: "Google Rating",
+    stat3Val: "Local",   stat3Label: "Experts",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Our Roofing Services",
+    servicesDesc: "From our base on Ashton Old Road, we cover all Manchester postcodes with expert roofing work at fair prices.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing",    items: ["Full Re-Roofs", "Tile & Slate Work", "Emergency Repairs"] },
+        { category: "External",   items: ["Guttering", "Fascias & Soffits", "Chimney Repairs"] },
+        { category: "Specialist", items: ["Flat Roofs", "Storm Damage", "Roof Surveys"] }
+    ],
+    whyTitle: "Why Choose Manchester & Ashton Roofing",
+    whyCards: [
+        { icon: "fa-map-marker-alt", title: "Truly Local",    desc: "Based in Ashton-under-Lyne — we know Manchester roofs inside out." },
+        { icon: "fa-tools",          title: "All Roofing",    desc: "From small patches to full replacements, we handle every job with care." },
+        { icon: "fa-pound-sign",     title: "Honest Quotes",  desc: "No hidden extras — just clear, competitive pricing from the start." },
+        { icon: "fa-check-circle",   title: "Reliable",       desc: "We show up when we say we will and leave your property spotless." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Proud to Serve Greater Manchester",
+    ownerTitle: "Lead Contractor, Manchester & Ashton Roofing Co. Ltd",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Repairs",          pct: "98",  icon: "fa-tools" },
+        { name: "Guttering",        pct: "95",  icon: "fa-water" },
+        { name: "Reliability",      pct: "97",  icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Karen M.", text: "Great local company — sorted our roof quickly and at a really fair price. Very happy.", loc: "Ashton-under-Lyne" },
+        { name: "Steve B.", text: "Professional from quote to completion. Would recommend to anyone in Manchester.", loc: "Manchester" }
+    ],
+    areas: ["Ashton-under-Lyne", "Manchester", "Oldham", "Tameside", "Droylsden"],
+    footerBizName1: "MANCHESTER &",
+    footerBizName2: "ASHTON ROOFING",
+    footerDesc: "Trusted local roofing contractors based in Ashton-under-Lyne. Covering Greater Manchester with quality repairs and full replacements.",
+    mapsUrl: "https://www.google.com/maps/search/Manchester+Ashton+Roofing+Co",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"manchester_roofing_repairs_ltd": {
+    name1: "MANCHESTER",
+    name2: "ROOFING REPAIRS",
+    phone: "+44 7464 975671",
+    email: "info@manchesterroofingrepairsltd.com",
+    color: "#1e3a8a",
+    colorDark: "#172554",
+    icon: "fa-wrench",
+    locationName: "Manchester",
+    locationSub: "Specialist repair team covering all Manchester postcodes.",
+    formServices: ["Emergency Repairs", "Tile & Slate", "Flat Roofs", "Guttering", "Full Re-Roofs"],
+    heroTitle: "Manchester's #1<br><span class='highlight'>Roof Repair Specialists.</span>",
+    heroDesc: "5-star rated roofing repair experts based in Manchester. Fast, professional, and trusted by over 50 local homeowners.",
+    heroBadge: "<i class='fas fa-star'></i> 5.0 Stars — 50 Verified Reviews",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "We specialise in repairs done right the first time — no callbacks, no compromises.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Chris",
+    stat1Val: "50+",     stat1Label: "5-Star Reviews",
+    stat2Val: "5.0★",   stat2Label: "Google Rating",
+    stat3Val: "Fast",    stat3Label: "Response",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Expert Repair Services",
+    servicesDesc: "Based on Shelford Ave, we are Manchester's dedicated roofing repair team — fast responses and lasting fixes.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Repairs",    items: ["Emergency Patching", "Tile & Slate Repairs", "Lead Flashing"] },
+        { category: "Roofing",    items: ["Full Re-Roofs", "Flat Roof Systems", "Storm Damage"] },
+        { category: "External",   items: ["Guttering", "Fascias & Soffits", "Chimney Repairs"] }
+    ],
+    whyTitle: "Why Choose Manchester Roofing Repairs",
+    whyCards: [
+        { icon: "fa-star",        title: "5.0 Rated",      desc: "Every one of our 50+ reviews is a perfect 5 stars. Quality is non-negotiable." },
+        { icon: "fa-bolt",        title: "Fast Response",  desc: "Roof leaking? We get there quickly to assess and fix before further damage occurs." },
+        { icon: "fa-wrench",      title: "Repair Experts", desc: "Repairs are our speciality — we fix it properly so you don't have to call us twice." },
+        { icon: "fa-check-circle","title": "Trustworthy",  desc: "Honest assessments, fair pricing, and always leave your property clean and tidy." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Manchester's Repair Specialists",
+    ownerTitle: "Lead Contractor, Manchester Roofing Repairs Ltd",
+    skills: [
+        { name: "Emergency Repairs",  pct: "100", icon: "fa-bolt" },
+        { name: "Tile & Slate Work",  pct: "100", icon: "fa-home" },
+        { name: "Guttering",          pct: "95",  icon: "fa-water" },
+        { name: "Reliability",        pct: "100", icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Anna P.", text: "Chris was brilliant — came out same day and fixed our leak properly. Highly recommend.", loc: "Manchester" },
+        { name: "Mark D.", text: "5 stars without hesitation. Fast, honest, and the repair has held perfectly.", loc: "Salford" }
+    ],
+    areas: ["Manchester", "Salford", "Stretford", "Urmston", "Eccles"],
+    footerBizName1: "MANCHESTER",
+    footerBizName2: "ROOFING REPAIRS",
+    footerDesc: "Manchester's 5-star rated roofing repair specialists. Fast response, lasting repairs, and honest pricing across Greater Manchester.",
+    mapsUrl: "https://www.google.com/maps/search/Manchester+roofing+repairs+ltd",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"cb_roofing": {
+    name1: "C.B",
+    name2: "ROOFING",
+    phone: "+44 7584 864596",
+    email: "info@northwest-roofing.co.uk",
+    color: "#374151",
+    colorDark: "#111827",
+    icon: "fa-hard-hat",
+    locationName: "Manchester City Centre",
+    locationSub: "Based in Manchester — serving the entire North West.",
+    formServices: ["Roof Replacement", "Repairs", "Flat Roofs", "Guttering", "Chimney Work"],
+    heroTitle: "North West Roofing<br><span class='highlight'>Done Properly.</span>",
+    heroDesc: "4.7-star rated roofing contractor based in Manchester city centre. Professional workmanship across repairs, replacements, and guttering.",
+    heroBadge: "<i class='fas fa-map-marker-alt'></i> Manchester City Centre — North West Coverage",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "We take pride in every roof we touch — quality materials, skilled hands, and a tidy finish.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "C.B Roofing Team",
+    stat1Val: "27",      stat1Label: "5-Star Reviews",
+    stat2Val: "4.7★",   stat2Label: "Google Rating",
+    stat3Val: "NW",      stat3Label: "Coverage",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Our Roofing Services",
+    servicesDesc: "From our base in Manchester city centre, C.B Roofing covers the full North West with expert roofing work.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing",    items: ["Full Re-Roofs", "Tile & Slate Work", "Flat Roofs"] },
+        { category: "Repairs",    items: ["Emergency Repairs", "Storm Damage", "Lead Flashing"] },
+        { category: "External",   items: ["Guttering", "Fascias & Soffits", "Chimney Work"] }
+    ],
+    whyTitle: "Why Choose C.B Roofing",
+    whyCards: [
+        { icon: "fa-star",        title: "4.7 Rated",       desc: "Consistently high reviews from homeowners across the North West." },
+        { icon: "fa-tools",       title: "All Roofing",     desc: "Repairs, replacements, flat roofs — we handle every type of roofing job." },
+        { icon: "fa-pound-sign",  title: "Competitive",     desc: "Quality materials and expert fitting at prices that are fair and transparent." },
+        { icon: "fa-check-circle","title": "Professional",  desc: "Punctual, tidy, and professional on every job from start to finish." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "North West Roofing Professionals",
+    ownerTitle: "Lead Contractor, C.B Roofing Limited",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Repairs",          pct: "97",  icon: "fa-tools" },
+        { name: "Guttering",        pct: "95",  icon: "fa-water" },
+        { name: "Reliability",      pct: "97",  icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Helen S.", text: "Very professional team — completed our re-roof on time and left everything spotless.", loc: "Manchester" },
+        { name: "Rob F.",   text: "Great quality work at a fair price. No hesitation recommending C.B Roofing.", loc: "Salford" }
+    ],
+    areas: ["Manchester", "Salford", "Bolton", "Wigan", "Preston"],
+    footerBizName1: "C.B",
+    footerBizName2: "ROOFING",
+    footerDesc: "Professional roofing contractors based in Manchester city centre. Covering the full North West with quality repairs and replacements.",
+    mapsUrl: "https://www.google.com/maps/search/CB+Roofing+Limited+Manchester",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"asap_roofing": {
+    name1: "ASAP",
+    name2: "ROOFING",
+    phone: "+44 7476 899564",
+    email: "info@asaproofingandguttering.co.uk",
+    color: "#b91c1c",
+    colorDark: "#7f1d1d",
+    icon: "fa-bolt",
+    locationName: "Manchester City Centre",
+    locationSub: "Fast response roofing — when you need it done now.",
+    formServices: ["Emergency Repairs", "Guttering", "Roof Replacement", "Flat Roofs", "Storm Damage"],
+    heroTitle: "Fast & Reliable<br><span class='highlight'>Emergency Roofers.</span>",
+    heroDesc: "5-star rated roofing and guttering specialists based in Manchester. When you need it done fast — ASAP is the call to make.",
+    heroBadge: "<i class='fas fa-bolt'></i> Fast Response — Available Now",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "Speed without compromise — every emergency job gets the same high standard as a planned one.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "ASAP Roofing Team",
+    stat1Val: "16",      stat1Label: "5-Star Reviews",
+    stat2Val: "5.0★",   stat2Label: "Google Rating",
+    stat3Val: "Fast",    stat3Label: "Response",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Roofing & Guttering Services",
+    servicesDesc: "Based on Deansgate in Manchester city centre, ASAP Roofing covers all surrounding areas with rapid, reliable roofing solutions.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Emergency",  items: ["Same-Day Repairs", "Storm Damage", "Leak Fixes"] },
+        { category: "Guttering",  items: ["Gutter Replacement", "Gutter Cleaning", "Fascias & Soffits"] },
+        { category: "Roofing",    items: ["Full Re-Roofs", "Flat Roof Systems", "Tile & Slate Work"] }
+    ],
+    whyTitle: "Why Choose ASAP Roofing",
+    whyCards: [
+        { icon: "fa-bolt",        title: "Rapid Response",  desc: "True to our name — we move fast when you have a roofing emergency." },
+        { icon: "fa-star",        title: "5.0 Rated",       desc: "Every review is a perfect 5 stars. We don't cut corners — ever." },
+        { icon: "fa-water",       title: "Guttering Too",   desc: "Specialist guttering service alongside all our roofing work." },
+        { icon: "fa-check-circle","title": "City Centre",   desc: "Based on Deansgate — perfectly positioned to reach you fast." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Manchester's Fast-Response Roofers",
+    ownerTitle: "Lead Contractor, ASAP Roofing & Guttering",
+    skills: [
+        { name: "Emergency Repairs", pct: "100", icon: "fa-bolt" },
+        { name: "Guttering",         pct: "100", icon: "fa-water" },
+        { name: "Roof Replacement",  pct: "97",  icon: "fa-home" },
+        { name: "Response Speed",    pct: "100", icon: "fa-clock" }
+    ],
+    reviews: [
+        { name: "Laura K.", text: "Called ASAP with a bad leak — they were there within hours and fixed it perfectly.", loc: "Manchester" },
+        { name: "Craig T.", text: "Brilliant service. 5 stars is not enough — fast, clean, and a great price.", loc: "Salford" }
+    ],
+    areas: ["Manchester", "Salford", "Trafford", "Stretford", "Stockport"],
+    footerBizName1: "ASAP",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester's fast-response roofing and guttering specialists. 5-star rated and ready when you need us most.",
+    mapsUrl: "https://www.google.com/maps/search/ASAP+Roofing+Manchester+Deansgate",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"m60_roofing": {
+    name1: "M60",
+    name2: "ROOFING",
+    phone: "+44 7404 574168",
+    email: "info@m60roofingltd.co.uk",
+    color: "#0f4c75",
+    colorDark: "#062540",
+    icon: "fa-hard-hat",
+    locationName: "Manchester City Centre",
+    locationSub: "Roofing professionals at the heart of Manchester.",
+    formServices: ["Roof Replacement", "Repairs", "Flat Roofs", "Guttering", "Chimney Work"],
+    heroTitle: "Manchester City Centre<br><span class='highlight'>Roofing Professionals.</span>",
+    heroDesc: "4.8-star rated roofing specialists based on Ducie Street in Manchester. Quality roofing work delivered with care and precision.",
+    heroBadge: "<i class='fas fa-map-marker-alt'></i> Based in Manchester City Centre",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "City centre based, citywide service — roofing done with precision and pride.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "M60 Roofing Team",
+    stat1Val: "16",      stat1Label: "5-Star Reviews",
+    stat2Val: "4.8★",   stat2Label: "Google Rating",
+    stat3Val: "MCR",     stat3Label: "Based",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Our Roofing Services",
+    servicesDesc: "Operating from Ducie Street in the heart of Manchester, M60 Roofing delivers expert roofing across Greater Manchester.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing",    items: ["Full Re-Roofs", "Tile & Slate Work", "Flat Roofs"] },
+        { category: "Repairs",    items: ["Emergency Repairs", "Storm Damage", "Leak Fixes"] },
+        { category: "External",   items: ["Guttering", "Fascias & Soffits", "Chimney Work"] }
+    ],
+    whyTitle: "Why Choose M60 Roofing",
+    whyCards: [
+        { icon: "fa-star",        title: "4.8 Rated",       desc: "Highly rated by Manchester homeowners for quality and professionalism." },
+        { icon: "fa-map-marker-alt","title": "City Centre", desc: "Based in the heart of Manchester for quick access across all postcodes." },
+        { icon: "fa-tools",       title: "All Roofing",     desc: "Every type of roofing job handled with skill and attention to detail." },
+        { icon: "fa-check-circle","title": "Tidy & Pro",    desc: "We take pride in a clean finish — on the roof and on your property." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Roofing at the Heart of Manchester",
+    ownerTitle: "Lead Contractor, M60 Roofing Ltd",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Repairs",          pct: "98",  icon: "fa-tools" },
+        { name: "Guttering",        pct: "95",  icon: "fa-water" },
+        { name: "Reliability",      pct: "98",  icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Sandra H.", text: "M60 Roofing replaced our entire roof — brilliant job, very professional throughout.", loc: "Manchester" },
+        { name: "Phil N.",   text: "Fast quote, fair price, great result. Really impressed with the finish.", loc: "Manchester" }
+    ],
+    areas: ["Manchester", "Salford", "Ancoats", "Hulme", "Didsbury"],
+    footerBizName1: "M60",
+    footerBizName2: "ROOFING",
+    footerDesc: "Professional roofing specialists based in Manchester city centre. Quality repairs and full replacements across Greater Manchester.",
+    mapsUrl: "https://www.google.com/maps/search/M60+Roofing+Ltd+Manchester",
+    floatCta: "CALL NOW"
+},
+
+
+"best_roofers": {
+    name1: "BEST",
+    name2: "ROOFERS LTD",
+    phone: "+44 161 951 7958",
+    email: "info@best-roofers.co.uk",
+    color: "#92400e",
+    colorDark: "#451a03",
+    icon: "fa-medal",
+    locationName: "Manchester",
+    locationSub: "The best roofers in Manchester — by name and by nature.",
+    formServices: ["Roof Replacement", "Emergency Repairs", "Flat Roofs", "Guttering", "Tile & Slate"],
+    heroTitle: "Manchester's<br><span class='highlight'>Best Roofers.</span>",
+    heroDesc: "5-star rated roofing specialists in Manchester. The name says it all — uncompromising quality, every single time.",
+    heroBadge: "<i class='fas fa-medal'></i> 5.0 Stars — Rated Manchester's Best",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "The name isn't just branding — we genuinely strive to be the best roofers in Manchester.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Best Roofers Team",
+    stat1Val: "11",      stat1Label: "5-Star Reviews",
+    stat2Val: "5.0★",   stat2Label: "Google Rating",
+    stat3Val: "Best",    stat3Label: "In Manchester",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Premium Roofing Services",
+    servicesDesc: "Based on Warwick Road in Manchester, Best Roofers LTD delivers the highest standard of roofing work across the region.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing",    items: ["Full Re-Roofs", "Tile & Slate Work", "Flat Roofs"] },
+        { category: "Repairs",    items: ["Emergency Repairs", "Storm Damage", "Leak Fixes"] },
+        { category: "External",   items: ["Guttering", "Fascias & Soffits", "Chimney Repairs"] }
+    ],
+    whyTitle: "Why Choose Best Roofers LTD",
+    whyCards: [
+        { icon: "fa-medal",       title: "5.0 Perfect",    desc: "A perfect 5-star rating — every customer has left completely satisfied." },
+        { icon: "fa-home",        title: "Full Service",   desc: "From emergency patches to complete re-roofs — we do it all to the highest standard." },
+        { icon: "fa-pound-sign",  title: "Best Value",     desc: "Premium work doesn't have to mean premium prices. We keep it fair." },
+        { icon: "fa-check-circle","title": "Clean Finish", desc: "Your property left exactly as we found it — just with a much better roof." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Setting the Standard in Manchester",
+    ownerTitle: "Lead Contractor, Best Roofers LTD",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Emergency Repairs", pct: "100", icon: "fa-bolt" },
+        { name: "Guttering",         pct: "97",  icon: "fa-water" },
+        { name: "Reliability",       pct: "100", icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Diane M.", text: "Absolutely the best roofers I've used — perfect work, spotless finish, and a great price.", loc: "Manchester" },
+        { name: "Tom A.",   text: "5 stars. Called them for an emergency repair and they were brilliant from start to finish.", loc: "Manchester" }
+    ],
+    areas: ["Manchester", "Salford", "Trafford", "Wythenshawe", "Chorlton"],
+    footerBizName1: "BEST",
+    footerBizName2: "ROOFERS LTD",
+    footerDesc: "Manchester's 5-star rated roofing specialists. The best roofers in the city — quality, reliability, and fair pricing guaranteed.",
+    mapsUrl: "https://www.google.com/maps/search/Best+Roofers+LTD+Manchester+Warwick+Road",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"oakwood_roofing": {
+    name1: "OAKWOOD",
+    name2: "ROOFING",
+    phone: "+44 7823 722402",
+    email: "info@oakwoodroofingandgutteringltd.co.uk",
+    color: "#365314",
+    colorDark: "#1a2e06",
+    icon: "fa-leaf",
+    locationName: "Manchester",
+    locationSub: "Roofing and guttering specialists across Greater Manchester.",
+    formServices: ["Roof Replacement", "Guttering", "Repairs", "Flat Roofs", "Fascias & Soffits"],
+    heroTitle: "Expert Roofing &<br><span class='highlight'>Guttering Specialists.</span>",
+    heroDesc: "Oakwood Roofing & Guttering — reliable, professional, and trusted across Greater Manchester for quality roofing and drainage work.",
+    heroBadge: "<i class='fas fa-leaf'></i> Roofing & Guttering Specialists",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "We treat every home like our own — quality materials, careful workmanship, and a tidy finish every time.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Oakwood Roofing Team",
+    stat1Val: "11",      stat1Label: "5-Star Reviews",
+    stat2Val: "4.6★",   stat2Label: "Google Rating",
+    stat3Val: "Dual",    stat3Label: "Specialists",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Roofing & Guttering Services",
+    servicesDesc: "Based in Manchester, Oakwood specialises in both roofing and full guttering systems — a complete exterior solution.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing",    items: ["Full Re-Roofs", "Tile & Slate", "Flat Roofs"] },
+        { category: "Guttering",  items: ["Gutter Replacement", "Gutter Cleaning", "Downpipes"] },
+        { category: "External",   items: ["Fascias & Soffits", "Storm Repairs", "Chimney Work"] }
+    ],
+    whyTitle: "Why Choose Oakwood Roofing",
+    whyCards: [
+        { icon: "fa-leaf",        title: "Dual Specialists", desc: "Roofing and guttering under one team — no need to hire separately." },
+        { icon: "fa-tools",       title: "Quality Work",     desc: "Every job done with care, using quality materials built to last." },
+        { icon: "fa-pound-sign",  title: "Fair Pricing",     desc: "Transparent quotes with no hidden extras — always competitive." },
+        { icon: "fa-check-circle","title": "Tidy Finish",    desc: "We leave your property clean and tidy after every job, guaranteed." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Your Complete Exterior Specialists",
+    ownerTitle: "Lead Contractor, Oakwood Roofing & Guttering Ltd",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Guttering",        pct: "100", icon: "fa-water" },
+        { name: "Fascias & Soffits",pct: "97",  icon: "fa-tools" },
+        { name: "Reliability",      pct: "96",  icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Fiona R.", text: "Oakwood sorted our guttering and roof at the same time — brilliant service and great value.", loc: "Manchester" },
+        { name: "Gary P.",  text: "Very professional team. The guttering looks fantastic and the roof repair was done perfectly.", loc: "Stockport" }
+    ],
+    areas: ["Manchester", "Stockport", "Didsbury", "Cheadle", "Sale"],
+    footerBizName1: "OAKWOOD",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester's roofing and guttering specialists. Quality repairs, replacements, and drainage work across Greater Manchester.",
+    mapsUrl: "https://www.google.com/maps/search/Oakwood+Roofing+Guttering+Manchester",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+
+"manchester_flat_roofs": {
+    name1: "MANCHESTER",
+    name2: "FLAT ROOFS",
+    phone: "+44 7770 303009",
+    email: "info@manchesterflatroofs.com",
+    color: "#1e3a5f",
+    colorDark: "#0f1f33",
+    icon: "fa-layer-group",
+    locationName: "Manchester",
+    locationSub: "Flat roof specialists serving all of Greater Manchester.",
+    formServices: ["Flat Roof Installation", "Flat Roof Repairs", "EPDM Rubber", "GRP Fibreglass", "Felt Systems"],
+    heroTitle: "Manchester's Flat Roof<br><span class='highlight'>Specialists.</span>",
+    heroDesc: "Dedicated flat roofing experts covering all of Greater Manchester. Durable, weatherproof systems installed by specialists — not generalists.",
+    heroBadge: "<i class='fas fa-layer-group'></i> Flat Roof Specialists — Not Generalists",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "Flat roofs are all we do — which means we do them better than anyone else.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Manchester Flat Roofs Team",
+    stat1Val: "14",      stat1Label: "5-Star Reviews",
+    stat2Val: "4.4★",   stat2Label: "Google Rating",
+    stat3Val: "Flat",    stat3Label: "Roof Experts",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Flat Roofing Systems",
+    servicesDesc: "Based on Bradley Lane, we specialise exclusively in flat roofing — giving you the expertise a general roofer simply can't match.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Systems",    items: ["EPDM Rubber Roofs", "GRP Fibreglass", "Felt Systems"] },
+        { category: "Repairs",    items: ["Leak Repairs", "Blister Repairs", "Emergency Fixes"] },
+        { category: "Additional", items: ["Roof Surveys", "Insulation", "Drainage Solutions"] }
+    ],
+    whyTitle: "Why Choose Manchester Flat Roofs",
+    whyCards: [
+        { icon: "fa-layer-group",  title: "Flat Specialists", desc: "We focus exclusively on flat roofs — deeper expertise, better results." },
+        { icon: "fa-shield-alt",   title: "Long-Lasting",     desc: "High-quality systems built to withstand Manchester's weather for decades." },
+        { icon: "fa-search",       title: "Free Surveys",     desc: "Thorough survey before any work begins — no guesswork, no surprises." },
+        { icon: "fa-check-circle", title: "Expert Install",   desc: "Correct installation first time means no callbacks and no future leaks." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Dedicated Flat Roof Experts",
+    ownerTitle: "Lead Contractor, Manchester Flat Roof Solutions Ltd",
+    skills: [
+        { name: "EPDM Rubber Roofs",  pct: "100", icon: "fa-layer-group" },
+        { name: "GRP Fibreglass",     pct: "100", icon: "fa-shield-alt" },
+        { name: "Leak Repairs",       pct: "98",  icon: "fa-tools" },
+        { name: "Reliability",        pct: "96",  icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Brian C.", text: "Finally found proper flat roof specialists — the EPDM system they fitted has been perfect.", loc: "Manchester" },
+        { name: "Julie W.", text: "Really thorough survey and a great installation. No leaks since and the roof looks great.", loc: "Salford" }
+    ],
+    areas: ["Manchester", "Salford", "Eccles", "Worsley", "Irlam"],
+    footerBizName1: "MANCHESTER",
+    footerBizName2: "FLAT ROOFS",
+    footerDesc: "Greater Manchester's dedicated flat roofing specialists. EPDM, GRP fibreglass, and felt systems installed by experts.",
+    mapsUrl: "https://www.google.com/maps/search/Manchester+Flat+Roof+Solutions+Bradley+Lane",
+    floatCta: "CALL NOW"
+},
+
+// ------------------------------------------------------------
+// NOTE: Safeguard Roofing has no website and email not found yet.
+// Config is ready — find email via Companies House before sending.
+// ------------------------------------------------------------
+
+"safeguard_roofing": {
+    name1: "SAFEGUARD",
+    name2: "ROOFING",
+    phone: "+44 7759 852170",
+    email: "",  // TODO: find via Companies House
+    color: "#1e3a8a",
+    colorDark: "#172554",
+    icon: "fa-shield-alt",
+    locationName: "Manchester",
+    locationSub: "Protecting Manchester roofs since day one.",
+    formServices: ["Roof Replacement", "Emergency Repairs", "Flat Roofs", "Guttering", "Storm Damage"],
+    heroTitle: "Manchester's Most<br><span class='highlight'>Trusted Roofers.</span>",
+    heroDesc: "Safeguard Roofing — 5-star rated with 115 verified reviews. Manchester's most reviewed roofing specialists, trusted by hundreds of local homeowners.",
+    heroBadge: "<i class='fas fa-shield-alt'></i> 115 Five-Star Reviews — Manchester's Most Trusted",
+    heroImg: "assets/roofing/roofing_service_img1.jpg",
+    aboutQuote: "115 five-star reviews don't happen by accident — they happen because we genuinely care about every job.",
+    ctaText: "GET A QUOTE",
+    secondaryBtn: "OUR SERVICES",
+    owner: "Safeguard Roofing Team",
+    stat1Val: "115",     stat1Label: "5-Star Reviews",
+    stat2Val: "5.0★",   stat2Label: "Google Rating",
+    stat3Val: "Most",    stat3Label: "Trusted",
+    stat4Val: "Free",    stat4Label: "Estimates",
+    servicesTitle: "Complete Roofing Services",
+    servicesDesc: "With 115 five-star reviews, Safeguard Roofing is the most trusted roofing contractor in Manchester — and the results speak for themselves.",
+    serviceMainImg: "assets/roofing/roofing_service_img_6.jpg",
+    serviceOverlayImg: "assets/roofing/roofing_service_img_3.jpg",
+    tree: [
+        { category: "Roofing",    items: ["Full Re-Roofs", "Tile & Slate Work", "Flat Roofs"] },
+        { category: "Repairs",    items: ["Emergency Repairs", "Storm Damage", "Leak Fixes"] },
+        { category: "External",   items: ["Guttering", "Fascias & Soffits", "Chimney Work"] }
+    ],
+    whyTitle: "Why Choose Safeguard Roofing",
+    whyCards: [
+        { icon: "fa-shield-alt",  title: "115 Reviews",     desc: "The most reviewed roofing contractor in Manchester — all five stars." },
+        { icon: "fa-star",        title: "5.0 Perfect",     desc: "A perfect rating across every single review. Quality is never negotiable." },
+        { icon: "fa-bolt",        title: "Fast Response",   desc: "Emergency or planned — we respond quickly and deliver every time." },
+        { icon: "fa-check-circle","title": "Trustworthy",   desc: "Honest assessments, fair quotes, and a team you can rely on completely." }
+    ],
+    aboutTag: "About Our Service",
+    aboutTitle: "Manchester's Most Reviewed Roofers",
+    ownerTitle: "Lead Contractor, Safeguard Roofing",
+    skills: [
+        { name: "Roof Replacement", pct: "100", icon: "fa-home" },
+        { name: "Emergency Repairs", pct: "100", icon: "fa-bolt" },
+        { name: "Guttering",         pct: "97",  icon: "fa-water" },
+        { name: "Reliability",       pct: "100", icon: "fa-user-shield" }
+    ],
+    reviews: [
+        { name: "Michelle T.", text: "Safeguard are absolutely brilliant — I can see why they have so many 5-star reviews.", loc: "Manchester" },
+        { name: "Neil B.",     text: "Used Safeguard twice now. Both times: perfect work, fair price, and a clean site.", loc: "Manchester" }
+    ],
+    areas: ["Manchester", "Salford", "Prestwich", "Whitefield", "Bury"],
+    footerBizName1: "SAFEGUARD",
+    footerBizName2: "ROOFING",
+    footerDesc: "Manchester's most trusted roofing specialists. 115 five-star reviews — the city's highest-rated roofing contractor.",
+    mapsUrl: "https://www.google.com/maps/search/Safeguard+Roofing+Manchester+Melville+Road",
+    floatCta: "CALL NOW"
+}
 };
 function injectBusinessData() {
     const params = new URLSearchParams(window.location.search);
