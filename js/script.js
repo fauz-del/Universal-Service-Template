@@ -1710,3 +1710,48 @@ function handleSubmit(e) {
     if (successMsg) successMsg.style.display = 'block';
     e.target.reset();
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const bizKey = params.get('biz') || "alco_roofing";
+  const biz = businessData[bizKey];
+
+  const defaultFaqs = [
+    { q: "How quickly can you respond to an emergency?", a: "We aim to be on site within the hour for urgent roofing emergencies, 24 hours a day." },
+    { q: "Do you charge a call-out fee?", a: "No — we don't charge call-out fees. You only pay for the work carried out, quoted upfront." },
+    { q: "What areas do you cover?", a: "Check our Areas We Cover section above, or give us a call to confirm we serve your postcode." },
+    { q: "Are you insured?", a: "Yes, we're fully insured for both residential and commercial roofing work." }
+  ];
+
+  const faqs = (biz && biz.faqs) ? biz.faqs : defaultFaqs;
+  const faqList = document.getElementById('faq-list');
+
+  if (faqList) {
+    faqList.innerHTML = faqs.map((f, i) => `
+      <div class="faq-item" data-index="${i}">
+        <div class="faq-question">
+          <span>${f.q}</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="faq-answer"><p>${f.a}</p></div>
+      </div>
+    `).join('');
+
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.querySelector('.faq-question').addEventListener('click', () => {
+        item.classList.toggle('open');
+      });
+    });
+  }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const bizKey = params.get('biz') || "alco_roofing";
+  const biz = businessData[bizKey];
+  const mapFrame = document.getElementById('biz-map');
+  if (biz && biz.locationName && mapFrame) {
+    const query = encodeURIComponent(biz.locationName);
+    mapFrame.src = `https://maps.google.com/maps?q=${query}&output=embed`;
+  }
+});
