@@ -500,6 +500,8 @@ textarea {
   line-height: 1.75;
   color: rgba(255,255,255,0.68);
   margin-bottom: 34px;
+  color: var(--white);
+  font-weight: 600;
 }
 
 .hero-actions {
@@ -580,6 +582,7 @@ textarea {
 
 .hero-btn-secondary span {
   font-size: 0.76rem;
+  
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -608,7 +611,7 @@ textarea {
   height: 36px;
   display: grid;
   place-items: center;
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 2px solid rgba(255,255,255,0.12);
   border-radius: 50%;
   color: var(--accent);
   font-size: 0.7rem;
@@ -625,6 +628,8 @@ textarea {
   font-size: 0.6rem;
   color: rgba(255,255,255,0.42);
   text-transform: uppercase;
+  color: var(--ink);
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
@@ -639,10 +644,11 @@ textarea {
   display: flex;
   align-items: center;
   gap: 9px;
-  color: rgba(255,255,255,0.38);
+  color: var(--ink);
   font-size: 0.58rem;
   font-weight: 800;
   letter-spacing: 1.5px;
+
 }
 
 .hero-scroll i {

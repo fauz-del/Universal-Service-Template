@@ -448,11 +448,6 @@ function renderServices() {
   const main =
     business.services.main;
 
-
-  // ---------------------------------------------
-  // FEATURED SERVICE
-  // ---------------------------------------------
-
   if (main) {
 
     setAttr(
@@ -534,11 +529,6 @@ function renderServices() {
     }
 
   }
-
-
-  // ---------------------------------------------
-  // SERVICE CARDS
-  // ---------------------------------------------
 
   (
     business.services.cards || []
